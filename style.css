@@ -21,7 +21,9 @@
   --primary-color: rgb(4, 170, 109);
   --secondary-color: rgb(0, 0, 0);
   --background-color: rgb(255, 255, 255);
-  --text-color: rgb(4, 170, 109);
+  --background-seondary-color: rgb(14, 14, 14);
+  --text-color: rgb(255, 255, 255);
+  --text-seondary-color: rgb(0, 0, 0);
   --hover-color: rgb(4, 117, 76);
   --primary-font:normal;
   --secondary-font:hading_font;
@@ -439,3 +441,149 @@ button i {
 
 /*============================ Home End ==========================*/
 
+
+
+/*============================ About Start ==========================*/
+
+.ambient_light_effet{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ min-height: 90vh;
+ 
+}
+
+.cube{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  animation: animate 10s linear infinite;
+  
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: rotateX(-30deg) rotateY(0deg); 
+  }
+  100%
+  {
+    transform: rotateX(-30deg) rotateY(360deg); 
+  }
+}
+.cube div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  
+}
+.cube div span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgb(156, 152, 152),rgb(1, 124, 79));
+  transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
+  border: 5px solid rgb(12, 12, 12);
+ 
+}
+.cube div span video{
+  width: 100%;
+  height: 100%;
+}
+.top h1{
+  color:rgb(4, 170, 109);
+  text-align: center;
+  margin-top: 40%;
+  font-size: 50px;
+  filter: drop-shadow(0 0 20px var(--primary-color));
+  
+}
+.top{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background:rgba(11, 37, 28, 0.952);
+  transform: rotateX(90deg) translateZ(150px);
+  border: 5px solid rgba(0, 0, 0, 0.986);
+}
+.top::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background: var(--primary-color);
+  transform: translateZ(-580px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgba(4, 170, 109, 0.2), 0 0 200px rgba(4, 170, 109, 0.4), 0 0 300px rgba(4, 170, 109, 0.6), 0 0 400px rgba(4, 170, 109, 0.8), 0 0 500px rgba(4, 170, 109, 1);
+  border: 5px solid rgba(168, 11, 11, 0.1);
+}
+.about_png_text{
+  height: 470px;
+}
+.about_png{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color:var(--primary-color);
+}
+.about_png img{
+  width: 100%;
+}
+.about_text{
+padding-top: 320px;
+}
+.about_text h1{
+
+  font-size: 30px;
+  color:var(--primary-color);
+  font-weight: 500;
+  filter: drop-shadow(0 0 20px var(--primary-color));
+
+}
+.about_text p{
+  color:var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+.about_title p{
+  text-align: start;
+  color:var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+}
+.about-me-detail{
+  display:inline-flex;
+  flex-wrap: wrap;
+  justify-content:start;
+  align-items: center;
+  padding-left:0;
+  
+  gap: 10px;
+  list-style: none;
+  color:var(--text-color);
+  font-size: 15px;
+  font-weight: 500;
+}
+.about-me-detail li{
+  
+  background-color: var(--text-seondary-color);
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  filter: drop-shadow(0 0 5px var(--primary-color));
+}
+
+/*============================ About End ==========================*/
