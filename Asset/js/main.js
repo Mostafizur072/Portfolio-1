@@ -3,10 +3,11 @@
 document.getElementById("downloadButton").addEventListener("click", function() {
     // Start downloading the PDF file
     const link = document.createElement('a');
-    link.href = 'asset/pdf/MD.Mostafizur Rahman CV.pdf'; // Replace with the actual path to your PDF
+    link.href = '../pdf/MD.Mostafizur Rahman CV.pdf'; // Replace with the actual path to your PDF
     link.download = 'MD.Mostafizur Rahman CV.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
+     
     
     // Remove the link after download
     document.body.removeChild(link);
