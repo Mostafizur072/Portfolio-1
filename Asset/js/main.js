@@ -13,9 +13,7 @@ document.getElementById("downloadButton").addEventListener("click", function() {
     afterDownload();
 });
 
-function afterDownload() {
-    alert("PDF Downloaded!"); // Replace this with your desired action
-}
+
 
 //============================================================================>
 
