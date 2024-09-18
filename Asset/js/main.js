@@ -8,6 +8,7 @@ document.getElementById("downloadButton").addEventListener("click", function() {
     document.body.appendChild(link);
     link.click();
 
+    
     // Remove the link after download
     document.body.removeChild(link);
     
