@@ -1,4 +1,78 @@
-@media (max-width: 575.98px) { 
+
+@media (min-width:300px) and (max-width:412.98px) {
+  /* =======================Navbar-START========================*/
+.navbar_logo{
+  width: 12%;
+}
+.brand_name{
+  font-size: 0.8rem;
+}
+.nav_icon ion-icon{
+  font-size: 15px;
+  
+}
+
+/*==========================navbar END========================*/
+
+
+  /*=========================== particles-js container START ===========================*/
+  #particles-js {
+    height:300px;
+    
+  }
+  /*=========================== particles-js container END ===========================*/
+
+
+  /*=========================== Home Start ===========================*/
+  .brand_title{
+    width: 70%;
+    margin-top: 7px;
+  }
+  .brand_title h1{
+    font-size: 30px;
+    margin-bottom: 9px;
+  }
+  .brand_title h2{
+    font-size: 25px;
+  }
+  .brand_title p{ 
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .brand_title button{
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-top: 10px;
+    
+  
+   
+  }
+  button i {
+ 
+    font-size: 13px;
+  }
+  .social{
+    margin: auto;
+    width: 100%;
+    right: 0;
+
+   bottom: 5px;
+  }
+  .social_icon{
+    
+    gap: 8px;
+  }
+  .social_icon a{
+    font-size: 15px;
+  }
+
+  /*=========================== Home End ===========================*/
+
+
+}
+
+
+@media (min-width:413px) and (max-width:575.98px) { 
 /* =======================Navbar-START========================*/
 .navbar_logo{
   width: 12%;
