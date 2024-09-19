@@ -26,7 +26,7 @@
   /*========= ================== Home Start ===========================*/
   .brand_title{
     width: 70%;
-    margin-top: 7px;
+    margin-top: 20px;
   }
   .brand_title h1{
     font-size: 30px;
@@ -185,6 +185,7 @@
   .brand_title{
     width: 70%;
     margin: auto;
+    
   }
   .brand_title h1{
     font-size: 35px;
@@ -209,7 +210,7 @@
     font-size: 13px;
   }
   .social{
-    margin: auto;
+    margin-bottom: 40px;
     width: 100%;
     right: 0;
 
