@@ -258,7 +258,7 @@ section h1 {
   top: -50%;
   left: 0;
   width: 100%;
-  height: 90vh;
+  height: 94vh;
   background-color: rgb(253, 253, 253);
 }
 
@@ -450,7 +450,7 @@ button i {
  justify-content: center;
  align-items: center;
  width: 100%;
- min-height: 90vh;
+ height: 94vh;
  
 }
 
@@ -524,7 +524,7 @@ button i {
   width: 300px;
   height: 300px;
   background: var(--primary-color);
-  transform: translateZ(-580px);
+  transform: translateZ(-380px);
   filter: blur(20px);
   box-shadow: 0 0 120px rgba(4, 170, 109, 0.2), 0 0 200px rgba(4, 170, 109, 0.4), 0 0 300px rgba(4, 170, 109, 0.6), 0 0 400px rgba(4, 170, 109, 0.8), 0 0 500px rgba(4, 170, 109, 1);
   border: 5px solid rgba(168, 11, 11, 0.1);
@@ -543,22 +543,23 @@ button i {
 }
 .about_text{
 padding-top: 320px;
+
 }
 .about_text h1{
-
+  text-align: center;
   font-size: 30px;
   color:var(--primary-color);
   font-weight: 500;
-  filter: drop-shadow(0 0 20px var(--primary-color));
+  text-shadow: 4px 2px 3px var(--text-seondary-color);
 
 }
 .about_text p{
   color:var(--text-color);
   font-size: 15px;
   font-weight: 500;
-  
+  text-align: center;
 }
-.about_title p{
+.about-me-text{
   text-align: start;
   color:var(--text-color);
   font-size: 15px;
