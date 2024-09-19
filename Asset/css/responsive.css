@@ -71,6 +71,9 @@
 
 
   /*=========================== About Start ===========================*/
+  .about {
+    margin-top: 30px;
+   }
 .ambient_light_effet{
   width: 100%;
   height: 100%;
@@ -124,8 +127,19 @@
 }
 .about-me-text{
   font-size: 12px;
-  padding-top: 40px;
+  margin-top:40px ;
+  padding:0px 10px 0 10px;
 }
+.about-me-detail{
+  font-size: 10px;
+  gap: 8px;
+  padding:0px 10px 0 10px;
+}
+.about-me-detail li{
+  padding: 4px 8px;
+}
+
+/*=========================== About End ===========================*/
 }
 
 
@@ -225,7 +239,78 @@
 .cube div span{
   transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
 }
+ /*=========================== About Start ===========================*/
+ .about {
+  margin-top: 35px;
+ }
+ .ambient_light_effet{
+  width: 100%;
+  height: 100%;
+  padding: 120px 0 180px 0;
 
+}
+.cube{
+  width: 200px;
+  height: 200px;
+}
+.cube div span{
+  transform: rotateY(calc(90deg * var(--i))) translateZ(100px);
+}
+.top{
+  width: 200px;
+  height: 200px;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.top::before{
+  width: 200px;
+  height: 200px;
+  transform: translateZ(-280px);
+}
+.top h1{
+  font-size: 35px;
+}
+.about_png_text{
+  height: 150px;
+}
+.about_png{
+  width: 170px;
+  height: 170px;
+}
+.about_text{
+  padding-top: 160px;
+  
+}
+.about_text h1{
+  font-size: 18px;
+  margin-bottom: 0;
+  
+  
+  
+}
+.about_text p{
+  font-size: 14px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  
+  
+}
+.about-me-text{
+  font-size: 14px;
+  margin-top: 55px;
+  padding:0px 10px 0 10px;
+}
+.about-me-detail{
+  font-size: 11px;
+  gap: 8px;
+  padding:0px 10px 0 10px;
+}
+.about-me-detail li{
+  padding: 4px 8px;
+  
+}
+
+/*=========================== About End ===========================*/
 
 }
 
@@ -298,6 +383,78 @@
 
   /*=========================== Home End ===========================*/
 
+
+
+   /*=========================== About Start ===========================*/
+ .ambient_light_effet{
+  width: 100%;
+  height: 100%;
+  padding: 140px 0 200px 0;
+
+}
+.cube{
+  width: 220px;
+  height: 220px;
+}
+.cube div span{
+  transform: rotateY(calc(90deg * var(--i))) translateZ(110px);
+}
+.top{
+  width: 220px;
+  height: 220px;
+  transform: rotateX(90deg) translateZ(110px);
+}
+
+.top::before{
+  width: 220px;
+  height: 220px;
+  transform: translateZ(-280px);
+}
+.top h1{
+  font-size: 40px;
+}
+.about_png_text{
+  height: 220px;
+}
+.about_png{
+  width: 200px;
+  height: 200px;
+}
+.about_text{
+  padding-top: 180px;
+  
+}
+.about_text h1{
+  font-size: 22px;
+  margin-bottom: 0;
+  
+  
+  
+}
+.about_text p{
+  font-size: 17px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  
+  
+}
+.about-me-text{
+  font-size: 15px;
+  margin-top: 55px;
+  padding:0px 10px 0 10px;
+}
+.about-me-detail{
+  font-size: 12px;
+  gap: 8px;
+  padding:0px 10px 0 10px;
+}
+.about-me-detail li{
+  padding: 5px 10px;
+  
+}
+
+/*=========================== About End ===========================*/
+
 }
 
 
@@ -355,7 +512,81 @@
 
 /*=========================== Home End ===========================*/
 
+
+
+
+   /*=========================== About Start ===========================*/
+   .about {
+    margin-top: 70px;
+   }
+   .ambient_light_effet{
+    width: 100%;
+    height: 100%;
+    padding: 170px 0 240px 0;
+  
+  }
+  .cube{
+    width: 250px;
+    height: 250px;
+  }
+  .cube div span{
+    transform: rotateY(calc(90deg * var(--i))) translateZ(125px);
+  }
+  .top{
+    width: 220px;
+    height: 220px;
+    transform: rotateX(90deg) translateZ(125px);
+  }
+  
+  .top::before{
+    width: 250px;
+    height: 250px;
+    transform: translateZ(-280px);
+  }
+  .top h1{
+    font-size: 40px;
+  }
+  .about_png_text{
+    height: 250px;
+  }
+  .about_png{
+    width: 250px;
+    height: 270px;
+  }
+  .about_text{
+    padding-top: 220px;
+    
+  }
+  .about_text h1{
+    font-size: 28px;
+    margin-bottom: 0;
+    
+    
+    
+  }
+  .about_text p{
+    font-size: 20px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    
+    
+  }
+  .about-me-text{
+    font-size: 17px;
+    margin-top: 55px;
+    
+  }
+  
+  
+  /*=========================== About End ===========================*/
+
 }
+
+
+
+
+
+
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
@@ -392,6 +623,71 @@
 }
 
 /*=========================== Home End ===========================*/
+
+
+
+
+   /*=========================== About Start ===========================*/
+   .ambient_light_effet{
+    width: 100%;
+    height: 100%;
+    padding: 170px 0 240px 0;
+  
+  }
+  .cube{
+    width: 250px;
+    height: 250px;
+  }
+  .cube div span{
+    transform: rotateY(calc(90deg * var(--i))) translateZ(125px);
+  }
+  .top{
+    width: 220px;
+    height: 220px;
+    transform: rotateX(90deg) translateZ(125px);
+  }
+  
+  .top::before{
+    width: 250px;
+    height: 250px;
+    transform: translateZ(-280px);
+  }
+  .top h1{
+    font-size: 40px;
+  }
+  .about_png_text{
+    height: 210px;
+  }
+  .about_png{
+    width: 210px;
+    height: 210px;
+  }
+  .about_text{
+    padding-top: 180px;
+    
+  }
+  .about_text h1{
+    font-size: 20px;
+    margin-bottom: 0;
+    
+    
+    
+  }
+  .about_text p{
+    font-size: 15px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
+    
+  }
+  .about-me-text{
+    font-size: 15px;
+    margin-top: 55px;
+    
+  }
+  
+  
+  /*=========================== About End ===========================*/
 
 }
 
