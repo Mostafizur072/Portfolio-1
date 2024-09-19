@@ -210,11 +210,10 @@
     font-size: 13px;
   }
   .social{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     width: 100%;
     right: 0;
-
-   bottom: -20px;
+    bottom: -20px;
   }
   .social_icon{
     
@@ -372,7 +371,7 @@
     width: 100%;
     right: 0;
 
-   bottom: 20px;
+   margin: 20px;
   }
   .social_icon{
     
