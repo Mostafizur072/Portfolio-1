@@ -177,6 +177,8 @@
   /*=========================== particles-js container START ===========================*/
   #particles-js {
     height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   /*=========================== particles-js container END ===========================*/
 
@@ -213,7 +215,8 @@
     margin-bottom: 25px;
     width: 100%;
     right: 0;
-    bottom: -20px;
+   bottom: 5px;
+    
   }
   .social_icon{
     
@@ -340,6 +343,7 @@
   /*=========================== particles-js container START ===========================*/
   #particles-js {
     height: 100%;
+    padding-bottom: 100px;
   }
   /*=========================== particles-js container END ===========================*/
 
@@ -370,8 +374,7 @@
     margin: auto;
     width: 100%;
     right: 0;
-
-   margin: 20px;
+    
   }
   .social_icon{
     
@@ -596,6 +599,7 @@
 }
 
 /*==========================navbar END========================*/
+
 
 
 
