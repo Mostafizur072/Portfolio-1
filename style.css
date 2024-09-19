@@ -597,24 +597,25 @@ padding-top: 320px;
 /*===========================portfolio Start=============================*/
 .portfolio {
   width: 100%;
-  height: 100%;
+  height: auto;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  transform: translate(0%, 0%);
- 
-  transform-style: preserve-3d;
+  overflow: hidden;
+  padding: 100px 0;
+  touch-action: pan-x; 
 
 }
 
 .cover {
+  flex: 0 0 auto;
   display: inline-block;
   height: 200px;
 	width: 320px;
 	margin: 15px;
-	border-radius: 8px;
+	border-radius: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -634,13 +635,13 @@ padding-top: 320px;
 }
 
 .atvImg {
-	border-radius: 8px;
+	border-radius: 20px;
 	transform-style: preserve-3d;
 	-webkit-tap-highlight-color: rgba(#000,0);
 }
 
 .atvImg img {
-	border-radius: 8px;
+	border-radius: 20px;
 	box-shadow: 0 2px 8px rgba(14,21,47,0.25);
 }
 
@@ -704,6 +705,7 @@ padding-top: 320px;
   border-radius: 20px;
   background-color: #1b193000;
   position: relative;
+  
 }
 
 @property --angle {
