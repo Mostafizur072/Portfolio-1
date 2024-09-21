@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MD. Mostafizur Rahman</title>
     <link rel="stylesheet" href="Asset/css/bootstrap 5.0.2/bootstrap.min.css">
+    <link rel="stylesheet" href="Asset/css/custom.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Asset/css/responsive.css">
 </head>
@@ -178,39 +179,84 @@
 
 <!==========================Portfolio-START========================>
 
-    <section id="portfolio"> 
+    <section id="Portfolio"> 
         <div class="container">
             <div class="row">
-                <div>
-                    <h1 class="portfolio-title">Portfolio</h1>
+                <div class="d-flex align-items-center justify-content-center mt-5 portfolio">
+                    <h1 class="portfolio-title box col-3">Portfolio</h1>
+                    <div class="slider col-8" style="
+                    --width: 100px;
+                    --height: 50px;
+                    --quantity: 10;
+                ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="Asset/Img/Portfilio/slider1_1.png" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="Asset/Img/Portfilio/slider1_2.png" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="Asset/Img/Portfilio/slider1_3.png" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="Asset/Img/Portfilio/slider1_4.png" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="Asset/Img/Portfilio/slider1_5.png" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="Asset/Img/Portfilio/slider1_6.png" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="Asset/Img/Portfilio/slider1_7.png" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="Asset/Img/Portfilio/slider1_8.png" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="Asset/Img/Portfilio/slider1_9.png" alt=""></div>
+                        <div class="item" style="--position: 10"><img src="Asset/Img/Portfilio/slider1_10.png" alt=""></div>
+                    </div>
                 </div>
-                <div class="portfolio">
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
-                    </div>
-                
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg-2.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
-                    </div>
-                
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg-3.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
-                    </div>
-                
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg-4.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
-                    </div>
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg-4.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
-                    </div>
-                    <div class="cover atvImg box">
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa-bg-4.jpg"></div>
-                        <div class="atvImg-layer" data-img="http://robindelaporte.fr/codepen/visa.png"></div>
+                </div>
+                <div class="wrapper ">
+                    <div class="container_1">
+                        <input type="radio" name="slide" id="c1" checked>
+                        <label for="c1" class="card_1">
+                            <div class="row_1">
+                                <div  onclick="toggleTitleVisibility(this)" class="porject-title">
+                                    <h1>Nova</h1>
+                                </div>
+                               
+                                <div class="description">
+                                    <h4><button><a href="">Visit</a></button></h4>
+                                    <p>Design by HTML,CSS,Bootstrap-5</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c2" >
+                        <label for="c2" class="card_1">
+                            <div class="row_1">
+                                <div  onclick="toggleTitleVisibility(this)" class="porject-title">
+                                    <h1>AvienTech</h1>
+                                </div>
+                               
+                                <div class="description">
+                                    <h4><button><a href="">Visit</a></button></h4>
+                                    <p>Design by HTML,CSS,Bootstrap-5</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c3" >
+                        <label for="c3" class="card_1">  
+                            <div class="row_1">
+                                <div  onclick="toggleTitleVisibility(this)" class="porject-title">
+                                    <h1>Rich Art</h1>
+                                </div>
+                                
+                                <div class="description">
+                                    <h4><button><a href="">Visit</a></button></h4>
+                                    <p>Design by HTML,CSS,Bootstrap-5</p>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" >
+                        <label for="c4" class="card_1">
+                            <div class="row_1">
+                                <div  onclick="toggleTitleVisibility(this)" class="porject-title">
+                                    <h1>Nova</h1>
+                                </div>
+                              
+                                <div class="description">
+                                    <h4><button><a href="">Visit</a></button></h4>
+                                    <p>Design by HTML,CSS,Bootstrap-5</p>
+                                </div>
+                            </div>
+                        </label>
                     </div>
                 </div>
             </div>

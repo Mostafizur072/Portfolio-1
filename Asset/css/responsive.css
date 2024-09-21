@@ -140,6 +140,60 @@
 }
 
 /*=========================== About End ===========================*/
+
+
+
+/*===========================portfolio Start=============================*/
+
+.portfolio-title{
+  font-size: 15px;
+  margin-top: 0px;
+}
+.wrapper{
+  margin: 70px 0px 100px 0px;
+}
+.container_1{
+height: 150px;
+width: 300px;
+}
+.card_1{
+  width: 80px;
+  margin: 0 5px;
+  border-radius: 0.8rem;
+  box-shadow: 5px 10px 20px 0px rgba(8, 241, 156, 0.507);
+}
+.card_1 > .row_1 > .description{
+  
+  justify-content: center;
+  height: 30px;
+  width: 185px;
+  margin-left:0px;
+  border-radius: 10px;
+  margin-bottom:0px;
+}
+.description p{
+  font-size: 5px;
+  margin: 0;
+  padding: 0;
+}
+.description h4 button{
+  font-size: 10px;
+  padding: 4px 6px;
+  margin: 0 0 0 30px;
+  width: 50px;
+  height: 20px;
+}
+.porject-title{
+  font-size: 15px;
+  width: 25px;
+  height: 150px;
+}
+.porject-title h1{
+  font-size: 12px;
+  padding:5px;
+  margin-top: 20px;
+}
+/*===========================portfolio End=============================*/
 }
 
 
@@ -315,6 +369,61 @@
 
 /*=========================== About End ===========================*/
 
+
+
+
+/*===========================portfolio Start=============================*/
+
+.portfolio-title{
+  font-size: 15px;
+  margin-top: 0px;
+}
+.wrapper{
+  margin: 70px 0px 100px 0px;
+}
+.container_1{
+height: 200px;
+width: 400px;
+}
+.card_1{
+  width: 80px;
+  margin: 0 5px;
+  border-radius: 0.8rem;
+  box-shadow: 5px 10px 20px 0px rgba(8, 241, 156, 0.507);
+}
+.card_1 > .row_1 > .description{
+  
+  justify-content: center;
+  height: 30px;
+  width: 260px;
+  margin-left:0px;
+  border-radius: 10px;
+  margin-bottom:0px;
+}
+.description p{
+  font-size: 7px;
+  margin: 0;
+  padding: 0;
+}
+.description h4 button{
+  font-size: 10px;
+  padding: 4px 6px;
+  margin: 0 0 0 30px;
+  width: 50px;
+  height: 20px;
+}
+.porject-title{
+  font-size: 15px;
+  width: 40px;
+  height: 200px;
+}
+.porject-title h1{
+  font-size: 15px;
+  padding:7px;
+  margin-top: 20px;
+}
+/*===========================portfolio End=============================*/
+
 }
 
 
@@ -458,6 +567,61 @@
 
 /*=========================== About End ===========================*/
 
+
+
+
+
+/*=========================== portfolio Start ===========================*/
+.portfolio-title{
+  font-size: 20px;
+  margin-top: 0px;
+}
+.wrapper{
+  margin: 70px 0px 100px 0px;
+}
+.container_1{
+height: 250px;
+width: 500px;
+}
+.card_1{
+  width: 80px;
+  margin: 0 5px;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 20px 0px rgba(8, 241, 156, 0.507);
+}
+.card_1 > .row_1 > .description{
+  
+  justify-content: center;
+  height: 40px;
+  width: 330px;
+  margin-left:0px;
+  border-radius: 10px;
+  margin-bottom:0px;
+}
+.description p{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.description h4 button{
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0 0 0 30px;
+  width:60px;
+  height: 25px;
+}
+.porject-title{
+  font-size: 15px;
+  width: 45px;
+  height: 250px;
+}
+.porject-title h1{
+  font-size: 18px;
+  padding:10px;
+  margin-top:10px;
+}
+/*===========================portfolio End=============================*/
+
 }
 
 
@@ -582,6 +746,60 @@
   
   
   /*=========================== About End ===========================*/
+
+
+
+
+  /*=========================== portfolio Start ===========================*/
+.portfolio-title{
+  font-size: 30px;
+  margin-top: 0px;
+}
+.wrapper{
+  margin: 70px 0px 100px 0px;
+}
+.container_1{
+height: 300px;
+width: 600px;
+}
+.card_1{
+  width: 80px;
+  margin: 0 5px;
+  border-radius: 1rem;
+  
+}
+.card_1 > .row_1 > .description{
+  
+  justify-content: center;
+  height: 60px;
+  width: 400px;
+  margin-left:0px;
+  border-radius: 10px;
+  margin-bottom:0px;
+}
+.description p{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.description h4 button{
+  font-size: 15px;
+  padding: 8px 15px;
+  margin: 0 0 0 30px;
+  width:70px;
+  height: 35px;
+}
+.porject-title{
+  font-size: 15px;
+  width: 55px;
+  height: 300px;
+}
+.porject-title h1{
+  font-size: 18px;
+  padding:15px;
+  margin-top:20px;
+}
+/*===========================portfolio End=============================*/
 
 }
 
