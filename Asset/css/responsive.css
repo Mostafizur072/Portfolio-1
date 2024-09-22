@@ -812,8 +812,13 @@ width: 600px;
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   /* =======================Navbar-START========================*/
-.navbar_logo{
-  width: 5%;
+
+}
+#navbarSupportedContent ul li a{
+  font-size: 13px;
+}
+.brand_name{
+font-size: 15px;
 }
 
 /*==========================navbar END========================*/
@@ -911,7 +916,7 @@ width: 600px;
   
   /*=========================== About End ===========================*/
 
-}
+
 
 
 
@@ -930,6 +935,11 @@ width: 600px;
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+  #navbarSupportedContent ul li a{
+    font-size: 16px;
+  }
+  .brand_name{
+  font-size: 20px;
+  }
 
 }

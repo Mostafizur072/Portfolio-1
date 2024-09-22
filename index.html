@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MD. Mostafizur Rahman</title>
     <link rel="stylesheet" href="Asset/css/bootstrap 5.0.2/bootstrap.min.css">
+    <link rel="stylesheet" href="Asset/Login from/login.css">
     <link rel="stylesheet" href="Asset/css/custom.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Asset/css/responsive.css">
@@ -25,7 +26,7 @@
                 <div class="navbar_logo">
                     <img src="Asset/Img/logo/icon.jpg" alt="">
                 </div>
-                <a class="navbar-brand navbar-logo brand_name" href="#">MD. Mostafizur Rahman</a>
+                <a class="navbar-brand navbar-logo brand_name" href="index.html">MD. Mostafizur Rahman</a>
                 <button class="navbar-toggler mt-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +50,7 @@
                             <a class="nav-link" href="#portfolio" data-url="#Portfolio" onclick="activateLink(this)"><i
                                     class="bi bi-briefcase"></i> Portfolio</a>
                         </li>
+                        
                         <li class="nav-item" id="nav-services">
                             <a class="nav-link" href="#services" data-url="#Services" onclick="activateLink(this)"><i
                                     class="bi bi-gear"></i> Services</a>
@@ -57,10 +59,51 @@
                             <a class="nav-link" href="#contact" data-url="#Contact" onclick="activateLink(this)"><i
                                     class="bi bi-envelope"></i> Contact</a>
                         </li>
+                        <button id="openLightbox" class="login">Login</button>
                     </ul>
                 </div>
             </div>
         </nav>
+
+
+         <!-- Button to open lightbox -->
+    
+
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close" id="closeLightbox">&times;</span>
+
+            <!-- Login Form (initially active) -->
+            <form id="loginForm" class="auth-form active">
+                <h2>Login</h2>
+                <label for="loginUsername">Username:</label>
+                <input type="text" id="loginUsername" name="username" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#" id="showRegisterForm">Register Now</a></p>
+            </form>
+
+            <!-- Register Form (initially hidden) -->
+            <form id="registerForm" class="auth-form">
+                <h2>Register</h2>
+                <label for="registerUsername">Username:</label>
+                <input type="text" id="registerUsername" name="username" required>
+
+                <label for="registerEmail">Email:</label>
+                <input type="email" id="registerEmail" name="email" required>
+
+                <label for="registerPassword">Password:</label>
+                <input type="password" id="registerPassword" name="password" required>
+
+                <button type="submit">Register</button>
+                <p>Already have an account? <a href="#" id="showLoginForm">Login</a></p>
+            </form>
+        </div>
+    </div>
 
         <!==========================Navbar-END========================>
 
@@ -704,7 +747,7 @@
                             <!-- jQuery -->
                             <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
                             <!-- Bootstrap JS -->
-
+                            <script src="Asset/Login from/login.js"></script>
                             <script type="module"
                                 src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
                             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
