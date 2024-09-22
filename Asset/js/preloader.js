@@ -1,9 +1,9 @@
 
-var loader = document.getElementById('preloader');
+// var loader = document.getElementById('preloader');
 
-window.addEventListener('load', function(){
-    setTimeout(function(){
-        loader.style.display = 'none';
-    }, 1600);
+// window.addEventListener('load', function(){
+//     setTimeout(function(){
+//         loader.style.display = 'none';
+//     }, 1600);
    
-})
+// })
