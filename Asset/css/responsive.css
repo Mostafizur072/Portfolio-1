@@ -2,7 +2,7 @@
 @media (min-width:300px) and (max-width:412.98px) {
   /* =======================Navbar-START========================*/
 .navbar_logo{
-  width: 12%;
+  width: 10%;
 }
 .brand_name{
   font-size: 0.8rem;
@@ -813,7 +813,7 @@ width: 600px;
 @media (min-width: 992px) and (max-width: 1199.98px) { 
   /* =======================Navbar-START========================*/
 
-}
+
 #navbarSupportedContent ul li a{
   font-size: 13px;
 }
@@ -828,7 +828,6 @@ font-size: 15px;
 
  /*=========================== Home Start ===========================*/
  .brand_title{
-
   width: 70%;
   margin: auto;
 }
@@ -918,7 +917,7 @@ font-size: 15px;
 
 
 
-
+}
 
 
 
